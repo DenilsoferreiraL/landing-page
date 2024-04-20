@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.box-principal {
+    width: 100vw;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    max-width: 100px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    padding: 15px;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.nav a:hover {
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+.nav a:active {
+    opacity: 0.5;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.container-left {
+    margin-left: 20px;
+}
+
+.container-left img {
+    max-width: 26%;
+    width: 100%;
+    height: auto;
+
+}
+
+.container-left p {
+    font-size: 18px;
+    width: 74%;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.button-contact {
+    padding: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff0048;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+.button-contact:hover {
+    opacity: 0.8;
+
+}
+
+.button-contact:active {
+    opacity: 0.5;
+}
+
+.container-right img {
+    margin-right: 20px;
+    max-width: 80%;
+    width: 100%;
+    height: auto;
+}
+
+.container-video {
+    top: 0;
+    position: fixed;
+    z-index: -999;
+}
+
+video {
+    width: 100%;
+    height: auto;
+
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+footer img {
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.form-contact button {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.form-contact {
+    background-color: #ffffff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-contact input {
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.form-contact textarea {
+    width: 290px;
+    height: 130px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    outline-color: #18d80f;
+}
